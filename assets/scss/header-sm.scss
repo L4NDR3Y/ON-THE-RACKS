@@ -1,0 +1,26 @@
+.Logo-header-sm {
+  width: 96px;
+}
+
+.Border-buttom {
+  border-bottom: 2px solid;
+  border-color: transparent;
+
+  &:hover {
+    border-color: white;
+  }
+}
+
+.Menu {
+
+  .Menu-filho {
+    border: 1px solid transparent;
+
+    &:hover {
+      border: 1px solid white;
+    }
+
+
+
+  }
+}
