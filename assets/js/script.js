@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       seekBar.value = (audio.currentTime / audio.duration) * 100;
 
-      seekBar.style.background = `linear-gradient(to right, transparent 0%, #fff ${seekBar.value}%, #555 ${seekBar.value}%, #555 100%)`;
+      seekBar.style.background = `linear-gradient(to right, transparent 0%, #fff ${seekBar.value}%, #999999 ${seekBar.value}%, #999999 100%)`;
 
       seekBar.style.borderRadius = `10px`;
 

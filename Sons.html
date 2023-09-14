@@ -13,15 +13,9 @@
 </head>
 
 <body class="bg-dark">
-  <!-- Header mobile -->
+  <!-- Header -->
   <header class="bg-black p-3">
     <div class="container-fluid d-flex justify-content-between justify-content-sm-between align-items-center">
-
-      <!-- Globo mobile -->
-      <a href="./index.html" class="Globo-header-mobile bi-arrow-left-circle text-white d-sm-none fs-2"></a>
-
-      <!-- Logo ON THE RACKS -->
-      <img class="Logo-header-mobile d-sm-none col-4" src="./assets/images/on-the-racks.png">
 
       <!-- Logo ON THE RACKS sm -->
       <a href="./index.html" class="d-none d-sm-block d-lg-none">
@@ -31,11 +25,48 @@
       <!-- Logo ON THE RACKS lg -->
       <a href="./index.html" class="d-none d-lg-block">
         <img class="Logo-header-lg d-none d-lg-block col-4" src="./assets/images/on-the-racks.png">
-
       </a>
 
-      <!-- Menu mobile -->
-      <i class="Menu-header-mobile bi-list d-sm-none text-white fs-2"></i>
+      <!-- Header mobile -->
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+
+          <!-- Globo mobile -->
+          <a href="./Projeto.html" class="Globo-header-mobile bi-arrow-left-circle text-white d-sm-none fs-2"></a>
+
+          <!-- Logo ON THE RACKS mobile -->
+          <img class="Logo-header-mobile d-sm-none col-4" src="./assets/images/on-the-racks.png">
+
+          <!-- Botao menu -->
+          <button class="navbar-toggler Menu-header-mobile bi-list d-sm-none text-white fs-2" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+          </button>
+
+          <div class="collapse navbar-collapse mt-3" id="navbarNav">
+            <ul class="navbar-nav bg-dark p-2 rounded-3 d-sm-none">
+
+              <li class="nav-item">
+                <a class="nav-link text-light bg-black border border-light rounded-3 my-1" href="./index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light  bg-black border border-light rounded-3 my-1"
+                  href="./Projeto.html">Projeto</a>
+              </li>
+
+              <li>
+                <a class="nav-link text-light bg-black border border-light rounded-3 my-1" href="./Sons.html">Sons</a>
+              </li>
+
+              <li>
+                <a class="nav-link text-light bg-black border border-light rounded-3 my-1"
+                  href="./Projeto.html">Avaliar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
       <!-- Barra nav Desktop/sm -->
       <nav class="d-none d-sm-block">
@@ -65,23 +96,17 @@
         </ul>
       </nav>
     </div>
-    <div class="d-sm-none col-12 container my-3">
-      <div class="row Menu">
-        <a class="Menu-filho my-1 bg-dark rounded-pill link-light text-decoration-none" href="./index.html">Home</a>
-        <a class="Menu-filho my-1 bg-dark rounded-pill link-light text-decoration-none"
-          href="./Projeto.html">Projeto</a>
-        <a class="Menu-filho my-1 bg-dark rounded-pill link-light text-decoration-none" href="./Sons.html">Sons</a>
-        <a class="Menu-filho my-1 bg-dark rounded-pill link-light text-decoration-none"
-          href="./avaliar.html">Avaliar</a>
-      </div>
-    </div>
   </header>
+
+
   <main class="container">
     <section class="row">
+
       <!--  Urso - Pouca Tolerância -->
       <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
         <div class="music-player" id="musicPlayer5">
           <div>
+            <div class="NewMusic">Musica nova</div>
             <img class="mx-auto img-fluid rounded-1" src="./assets/images/maxresdefault.jpg" alt="Imagem">
             <hr>
             <p class="my-1">Urso, Ledsen, Pagasi - Simplesmente Amei</p>

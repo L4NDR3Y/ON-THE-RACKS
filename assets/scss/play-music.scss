@@ -13,7 +13,7 @@ body {
 
 
 .time {
-  https://www.youtube.com/  display: flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -26,6 +26,13 @@ body {
   color: white;
   padding: 20px;
   position: relative;
+}
+
+.NewMusic {
+  padding: 2.5px 5px;
+  background: orange;
+  position: absolute;
+  border-radius: 5px;
 }
 
 .controls {
@@ -45,13 +52,13 @@ body {
 }
 
 .controls button:hover {
-  color: #00aaff;
+  color: black;
 }
 
 
 .seek-bar input[type="range"] {
   width: 100%;
-  background-color: #555;
+  background-color: #999999;
   height: 10px;
   border-radius: 10px;
   -webkit-appearance: none;
@@ -72,7 +79,7 @@ body {
 .seek-bar input[type="range"]::-webkit-slider-runnable-track {
   width: 100%;
   height: 4px;
-  background-color: #555;
+  background-color: #999999;
   border-radius: 2px;
 }
 
