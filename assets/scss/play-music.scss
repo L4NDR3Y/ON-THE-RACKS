@@ -85,7 +85,6 @@ body {
 
 /* Estilo para navegadores WebKit (Chrome, Safari) */
 .seek-bar input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
   width: 20px;
   height: 20px;
   background-image: url(../images/globo.png);
