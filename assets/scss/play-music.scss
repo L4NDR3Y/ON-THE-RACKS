@@ -85,12 +85,13 @@ body {
 
 /* Estilo para navegadores WebKit (Chrome, Safari) */
 .seek-bar input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
   width: 20px;
   height: 20px;
   background-image: url(../images/globo.png);
   background-size: cover;
   background-color: black;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -101,7 +102,7 @@ body {
   height: 20px;
   background-image: url(../images/globo.png);
   background-size: cover;
-  background-color: black;
+  background-color: yellow;
   border: 1px solid black;
   border-radius: 50%;
   cursor: pointer;
@@ -118,4 +119,33 @@ body {
   border: 1px solid black;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* Estilos padrão para a barra de busca */
+.seek-bar input[type="range"]::-webkit-slider-thumb,
+.seek-bar input[type="range"]::-moz-range-thumb,
+.seek-bar input[type="range"]::-ms-thumb {
+  /* Seus estilos existentes para o polegar (bolinha) */
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/globo.png);
+  background-size: cover;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Consulta de mídia para dispositivos móveis */
+@media (max-width: 768px) {
+
+  .seek-bar input[type="range"]::-webkit-slider-thumb,
+  .seek-bar input[type="range"]::-moz-range-thumb,
+  .seek-bar input[type="range"]::-ms-thumb {
+    /* Ajuste os estilos para dispositivos móveis aqui */
+    width: 16px;
+    /* Ajuste a largura para melhor alinhamento em dispositivos móveis */
+    height: 16px;
+    /* Ajuste a altura para melhor alinhamento em dispositivos móveis */
+  }
 }
