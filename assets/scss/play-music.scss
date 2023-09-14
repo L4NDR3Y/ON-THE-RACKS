@@ -98,6 +98,7 @@ body {
 .seek-bar input[type="range"]::-moz-range-thumb {
   width: 20px;
   height: 20px;
+  margin-bottom: 5px;
   background-image: url(../images/globo.png);
   background-size: cover;
   background-color: black;
@@ -124,6 +125,7 @@ body {
   .seek-bar input[type="range"]::-webkit-slider-thumb {
     /* Ajuste os estilos para dispositivos móveis aqui */
     width: 16px;
+
     /* Ajuste a largura para melhor alinhamento em dispositivos móveis */
     height: 16px;
     /* Ajuste a altura para melhor alinhamento em dispositivos móveis */
